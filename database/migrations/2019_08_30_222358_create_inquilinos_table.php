@@ -21,11 +21,11 @@ class CreateInquilinosTable extends Migration
             $table->string('fone_rec', 14)->nullable();
             $table->string('contato',20)->nullable();
             $table->string('fone_cel', 15);
-            $table->string('endereco', 50)->nullable();;
-            $table->string('bairro', 30)->nullable();;
-            $table->string('cep', 10)->nullable();;
-            $table->string('cidade', 50)->nullable();;
-            $table->char('uf', 2)->nullable();;
+            $table->string('endereco', 50)->nullable();
+            $table->string('bairro', 30)->nullable();
+            $table->string('cep', 10)->nullable();
+            $table->string('cidade', 50)->nullable();
+            $table->char('uf', 2)->nullable();
             $table->string('email', 50);
             $table->date('dt_nasc');
             $table->timestamps();
