@@ -20,5 +20,5 @@ Auth::routes();
 Route::get('/home', 'HomeController@index')->name('home');
 
 Auth::routes();
-
-Route::get('/home', 'HomeController@index')->name('home');
+//rota da tabela inquilinos
+Route::get('/Inquilinos','InquilinosController@index')->name('inquilinos.index');
